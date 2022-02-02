@@ -1,0 +1,11 @@
+POST http://localhost:3600/jobs/ HTTP/1.1
+content-type: application/json
+
+{
+    "pid": 17,
+    "refreshInterval": 2,
+    "totalRunTime": 30
+}
+
+###
+GET http://localhost:3600/jobs/5e4822bd7d096f0011874cef HTTP/1.1
